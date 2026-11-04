@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Food - CraveCorner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Crave<span>Corner</span></div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="order.html" class="order-btn">Order Now</a>
+    </nav>
+</header>
+
+<section class="order-section">
+    <h1>Order Your Favourite Food</h1>
+    <p>Fill in your details below.</p>
+
+    <form class="order-form" action="#">
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Mobile Number</label>
+        <input type="tel" placeholder="Enter mobile number" required>
+
+        <label>Select Food</label>
+        <select required>
+            <option value="">Choose Food</option>
+            <option>Margherita Pizza - ₹199</option>
+            <option>Classic Burger - ₹149</option>
+            <option>White Sauce Pasta - ₹179</option>
+            <option>Veg Noodles - ₹129</option>
+            <option>Cheese Sandwich - ₹99</option>
+            <option>Chocolate Cake - ₹89</option>
+        </select>
+
+        <label>Delivery Address</label>
+        <textarea rows="4" placeholder="Enter your full address" required></textarea>
+
+        <label>Special Instructions</label>
+        <input type="text" placeholder="Any special request">
+
+        <button type="submit" class="btn">Place Order</button>
+
+    </form>
+</section>
+
+<footer>
+    <p> 2026 CraveCorner | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
